@@ -43,7 +43,22 @@ Polarity is important for the fans.  I wired one to the fan header, and the othe
 ## Thermistors
 
 ## BLTouch Sensor
+See the link below for more complete documentation.  This is what I did and it works.  Cut off the existing wire connectors.
 
+* Crimp dupont connector ends on to all of the wires.
+* Stuff the white wire into a single pin plastic dupont connector and plug it into gpio 5
+* Stuff the orange wire into single pin plastic dupont connectors and plug it into gpio 20
+* Use a four pin connector and plug the remaining three wires in this order:
+** First pin - Red (5v)
+** Second pin - Brown (Ground)
+** Third pin - skip
+** Fourth pin - Black (Ground)
+* Plug the four wire plug onto the board orienting red to the 5v pin on the board.
+  
+Once you have the system powering up, follow the instructions here to verify it's working: https://www.klipper3d.org/BLTouch.html#initial-tests  
+  
+![BLTouch Connector Reference](./bltouch_reference.png)  
+  
 # Klipper Config
 See the attached [printer.cfg](./printer.cfg).  You can edit the file via the web interface.  Notable features in this:
 * Pins per the above diagrams
@@ -76,5 +91,6 @@ There were some warnings about where spicifis configs were in the moonraker.conf
 # Reference Links
 * Archim Schematic and Pinouts
 ** https://reprap.org/wiki/Archim2
-* How to wire the BLTouch with Archim 2
+* How to wire and test BLTouch with Archim 2
 ** https://github.com/radensb/BLTouch-Installation-Guide-Archim2
+** https://www.klipper3d.org/BLTouch.html
