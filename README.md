@@ -27,9 +27,9 @@ For whatever reason, you have to reverse the black plastic co
 The most tedius part of this conversion was crimping new ends onto many of the cables to work with the archim board.  The crealty board uses JXT/JST connectors for most stuff, and the Archim (as well as the Ultimachine Rambo boards) use _ connectors, whech are compatible with standard Dupont Pin connectors.
 
 ## Power Wiring
-All three sets of power connectors should be connected to the power supply, but a large current connection isn't needed for the heated bed since we have a separate transistor switching power to the bed.
-![Power Connector](./images/power_tripple_jumper.png)
-
+All three sets of power connectors should be connected to the power supply, but a large current connection isn't needed for the heated bed since we have a separate transistor switching power to the bed.  
+![Power Connector](./images/power_tripple_jumper.png)  
+  
 ## Stepper Wires
 
 ## Fans
