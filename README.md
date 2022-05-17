@@ -28,7 +28,7 @@ The most tedius part of this conversion was crimping new ends onto many of the c
 
 ## Power Wiring
 All three sets of power connectors should be connected to the power supply, but a large current connection isn't needed for the heated bed since we have a separate transistor switching power to the bed.
-![Power Connector](./images/tripple_power_jumper.png)
+![Power Connector](./images/power_tripple_jumper.png)
 
 ## Stepper Wires
 
