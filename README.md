@@ -49,15 +49,15 @@ See the link below for more complete documentation.  This is what I did and it w
 * Stuff the white wire into a single pin plastic dupont connector and plug it into gpio 5
 * Stuff the orange wire into single pin plastic dupont connectors and plug it into gpio 20
 * Use a four pin connector and plug the remaining three wires in this order:
-* * First pin - Red (5v)
-* * Second pin - Brown (Ground)
-* * Third pin - skip
-* * Fourth pin - Black (Ground)
+  * First pin - Red (5v)
+  * Second pin - Brown (Ground)
+  * Third pin - skip
+  * Fourth pin - Black (Ground)
 * Plug the four wire plug onto the board orienting red to the 5v pin on the board.
   
 Once you have the system powering up, follow the instructions here to verify it's working: https://www.klipper3d.org/BLTouch.html#initial-tests  
   
-![BLTouch Connector Reference](./bltouch_reference.png)  
+![BLTouch Connector Reference](./images/bltouch_reference.png)  
   
 # Klipper Config
 See the attached [printer.cfg](./printer.cfg).  You can edit the file via the web interface.  Notable features in this:
