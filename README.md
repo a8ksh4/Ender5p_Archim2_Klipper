@@ -10,7 +10,7 @@ Use Whatever means nesessary to cut holes in the side of the metal box.  I drill
 
 ## Parts List
 * Printed mounting plate
-* Archim 2 Board with accessory wiring and sparts
+* Archim 2 Board with accessory wiring and sparts https://ultimachine.com/products/archim2
 * Raspberry P 4 (or a 3 shuld work just fine too)
 * RepRapDiscount 12860 Display https://www.amazon.com/gp/product/B01FH8KTZU/
 * Printed Display Housing
@@ -27,6 +27,8 @@ For whatever reason, you have to reverse the black plastic co
 The most tedius part of this conversion was crimping new ends onto many of the cables to work with the archim board.  The crealty board uses JXT/JST connectors for most stuff, and the Archim (as well as the Ultimachine Rambo boards) use _ connectors, whech are compatible with standard Dupont Pin connectors.
 
 ## Power Wiring
+All three sets of power connectors should be connected to the power supply, but a large current connection isn't needed for the heated bed since we have a separate transistor switching power to the bed.
+![Power Connector](./images/tripple_power_jumper.png)
 
 ## Stepper Wires
 
